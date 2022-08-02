@@ -58,7 +58,7 @@
       let chart_datasets_label_arr = JSON.parse('<?php echo json_encode($chart_datasets_label_arr, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>');
       let chart_datasets_data_arr = JSON.parse('<?php echo json_encode($chart_datasets_data_arr, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>')
     </script>
-    <script src="{{ asset('/js/time_log_chart.js?f2d2') }}"></script>
+    <script src="{{ asset('/js/time_log_chart.js?f2d') }}"></script>
   @endif
   <script src="{{ asset('/js/index.js') }}"></script>
 </body>

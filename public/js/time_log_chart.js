@@ -28,18 +28,4 @@ var time_log_chart = new Chart(ctx, {
             text: "時間記録",
         },
     },
-
-    // Configuration options go here
-    options: {
-        scales: {
-            xAxes: [
-                {
-                    type: "time",
-                    time: {
-                        unit: "day",
-                    },
-                },
-            ],
-        },
-    },
 });
