@@ -13,4 +13,8 @@ class Task extends Model
     public function time_logs(){
         return $this->hasMany('App\Models\TimeLog');
     }
+
+    public function test_git(){
+        dd('git_test_sitai');
+    }
 }
